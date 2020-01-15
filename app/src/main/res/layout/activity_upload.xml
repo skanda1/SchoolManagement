@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.skanda.schoolmanagement.Upload">
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="TextView"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/textView55"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/filename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="128dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:editable="false"
+            android:ems="10"
+            android:hint="file name"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="124dp"
+            android:background="@drawable/wbutton"
+            android:text="Browse"
+            app:layout_constraintStart_toEndOf="@+id/filename"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:text="Question:"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/radiocriteria"
+            android:layout_width="330dp"
+            android:layout_height="199dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/filename">
+
+            <RadioButton
+                android:id="@+id/Ca"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:text="Criteria A"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/msg" />
+
+            <RadioButton
+                android:id="@+id/Cb"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:text="Criteria B"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toEndOf="@+id/Ca"
+                app:layout_constraintTop_toBottomOf="@+id/msg" />
+
+            <RadioButton
+                android:id="@+id/Cc"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="24dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:text="Criteria C"
+                android:textColor="@android:color/black"
+                app:layout_constraintStart_toEndOf="@+id/Cb"
+                app:layout_constraintTop_toBottomOf="@+id/msg" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="148dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/button"
+            android:text="Upload"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiocriteria" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

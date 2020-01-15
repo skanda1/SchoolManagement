@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.skanda.schoolmanagement">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Options" />
+        <activity android:name=".AdminHome" />
+        <activity android:name=".AddTeacher" />
+        <activity android:name=".AddStudent" />
+        <activity android:name=".Login" />
+        <activity android:name=".ProjectWork" />
+        <activity android:name=".ViewTeacher" />
+        <activity android:name=".ViewStudent" />
+        <activity android:name=".StudentOptions" />
+        <activity android:name=".ViewStudentTask" />
+        <activity android:name=".AssignTask" />
+        <activity android:name=".DeleteTeacher" />
+        <activity android:name=".TeacherOptions" />
+        <activity android:name=".AddBatch" />
+        <activity android:name=".DeleteStudent" />
+        <activity android:name=".AllotWork" />
+        <activity android:name=".ViewTask" />
+        <activity android:name=".TeacherViewTasks" />
+        <activity android:name=".TeacherViewTaskList" />
+        <activity android:name=".Upload" />
+        <activity android:name=".TeacherViewFiles" />
+        <activity android:name=".Files" />
+        <activity android:name=".TeacherFileViewStudentfile" />
+        <activity android:name=".Evaluate" />
+        <activity android:name=".SelectForEvaluate" />
+        <activity android:name=".Correction" />
+        <activity android:name=".Reports" />
+        <activity android:name=".ChatRoom" />
+        <activity android:name=".Chat" />
+        <activity android:name=".ViewChatRooms" />
+        <activity android:name=".StudentComments"></activity>
+    </application>
+
+</manifest>

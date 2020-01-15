@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "592153585825",
+    "firebase_url": "https://chat-2e08f.firebaseio.com",
+    "project_id": "chat-2e08f",
+    "storage_bucket": "chat-2e08f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592153585825:android:9eb92b0aa4ca0ea6",
+        "android_client_info": {
+          "package_name": "com.example.skanda.schoolmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592153585825-9nro8tct0p7cv4dla3b9vc04qmc52l1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skanda.schoolmanagement",
+            "certificate_hash": "af82c54c43238209fdb9f731100d5b03456eda3c"
+          }
+        },
+        {
+          "client_id": "592153585825-ilm11ed043sp5am6ah7ot6ofchvmsm65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQVpu9X2YI3uIvKNF6Uy9UV6H8_dxxpDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592153585825-ilm11ed043sp5am6ah7ot6ofchvmsm65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
